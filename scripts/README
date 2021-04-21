@@ -1,0 +1,4 @@
+You will need to get the byteps_latest Singularity Image File created. 
+For this please run 
+> ./get_image.sh 
+in your working directory.
