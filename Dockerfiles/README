@@ -1,0 +1,7 @@
+KAUST RCCL Horovod (GPU) 
+   Dockerfile:  https://github.com/kaust-rccl/Dockerfiles/tree/master/horovod/Dockerfile.gpu
+   Image: https://hub.docker.com/r/mshaikh/horovod_gpu
+
+KAUST RCCL BytePS: 
+   Dockerfile: https://github.com/kaust-rccl/Dockerfiles/blob/master/byteps/Dockerfile
+   Image: https://hub.docker.com/r/mshaikh/byteps
