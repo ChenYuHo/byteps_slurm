@@ -3,5 +3,7 @@ For this please run
 > ./get_image.sh 
 in your working directory.
 
-Then you can submit the jobs via a convinience script.
-> ./submit.sh
+Then you can submit the jobs via slurm:
+> sbatch -N 8 byteps.slurm # run 8 worker and 8 servers colocated (total 8 nodes requested)
+
+> sbatch -N 16 byteps.slurm 8 8 # run 8 worker and 8 dedicated servers (total 16 ndoes requestsed)
